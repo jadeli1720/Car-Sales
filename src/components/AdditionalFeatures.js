@@ -21,7 +21,7 @@ const AdditionalFeatures = props => {
 };
 
 const mapStateToProps = state => {
-  console.log('Additional Features', state)
+  // console.log('Additional Features', state)
   return {
     store: state.store
   }

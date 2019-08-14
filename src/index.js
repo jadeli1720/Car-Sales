@@ -15,6 +15,10 @@ STEP 1 - Create a store! Pass our store object into the Redux Provider component
     a. Give your Provider the store property and equal it to the Value of store.
      
     b. Import reducer function from reducer folder
+
+STEP 2 - Use connect in each child component of App.js to bridge between said components and the state of carReducer
+
+STEP 3 - In the actions folder
 */
 
 export const store = createStore(carReducer)
