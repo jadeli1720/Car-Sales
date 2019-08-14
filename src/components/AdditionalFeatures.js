@@ -19,9 +19,11 @@ const AdditionalFeatures = props => {
     </div>
   );
 };
+
 const mapStateToProps = state => {
+  console.log('Additional Features', state)
   return {
-    
+    store: state.store
   }
 }
 
